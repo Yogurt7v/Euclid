@@ -4,4 +4,5 @@ body {
 
 .wrapper {
   width: 1770px;
+  box-sizing: border-box;
 }
