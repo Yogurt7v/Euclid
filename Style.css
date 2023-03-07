@@ -1,10 +1,161 @@
 body {
-  min-height: 100vh;
+  max-width: 1920px;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  background: #E5E5E5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+
+  color: #333333;
+}
+
+.header {
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
 }
 
 .wrapper {
   max-width: 1770px;
   box-sizing: border-box;
+  padding-left: 75px;
+  padding-right: 75px;
+
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.header__logo {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.image__logo {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.nav__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-content: center;
+}
+
+.nav__card {
+  padding-right: 85px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+
+.nav__search {
+  padding-right: 0;
+}
+
+
+/* Section HERO */
+
+
+.hero {
+  background:url(/Image/heroBackground.jpg);
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 100px;
+  text-align: left;
+  justify-content: left;
+}
+
+.hero__colomn {
+  width: 837px;
+}
+
+.hero__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+  padding-bottom: 24px;
+
+  color: #FFFFFF;
+}
+
+.hero__content {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 90px;
+
+  color: #FFFFFF;
+
+}
+
+.hero_button {
+  width: 280px;
+  height: 78px;
+  margin-bottom: 100px;
+
+  background: #FF9900;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.4581px;
+  line-height: 29px;
+
+  text-align: center;
+  border: #FF9900;
+
+  color: #FFFFFF;
+}
+
+
+/* About US */
+
+.aboutUs__title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.aboutUS__text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #333333;
+
+  padding-right: 250px;
+  padding-bottom: 50px;
+
+}
+
+.aboutUS__cards{ 
+  display: flex;
+  
+}
+
+.aboutUS_cards__bigCard {
+  height: 622px;
+  width: 868px;
+
+  background: url(/Image/Worker.jpg);
 }
