@@ -1,11 +1,13 @@
 body {
-  max-width: 1920px;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background: #E5E5E5;
+  padding: 0;
+  background: white ;
 }
 
 h2 {
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -15,10 +17,19 @@ h2 {
   color: #333333;
 }
 
-.header {
-  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
-  background: #FFFFFF;
-  margin-bottom: 50px;
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -26,8 +37,21 @@ h2 {
   box-sizing: border-box;
   padding-left: 75px;
   padding-right: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
 
 }
+
+/* HEADER */
+
+.header {
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-bottom: 50px;
+}
+
 
 .header__nav {
   display: flex;
@@ -36,7 +60,7 @@ h2 {
 
 }
 
-.header__logo {
+.logo {
   margin-top: 14px;
   margin-bottom: 14px;
 }
@@ -132,12 +156,17 @@ h2 {
 
 /* About US */
 
+.aboutUs {
+  margin-bottom: 100px;
+}
+
 .aboutUs__title {
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
 .aboutUS__text{
+  text-align: justify;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -153,12 +182,14 @@ h2 {
 
 .aboutUS__cards{ 
   display: flex;
-  
+  justify-content: space-around;
+  text-align: left;
 }
 
 .aboutUS_cards__bigCard {
   height: 622px;
   width: 868px;
+  margin-right: 32px;
 
   background: url(/Image/Worker.jpg);
   border-radius: 32px;
@@ -203,4 +234,164 @@ h2 {
 
   color: #FFFFFF;
 
+}
+
+.aboutUS__right {
+  width: 868px;
+  height: 295px;
+}
+
+.aboutUS__right__card {
+  background: #FFFFFF;
+  border: 1px solid #CACACA;
+  border-radius: 32px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.aboutUS__right__card:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.aboutUS__right__card__image {
+  padding:  65px 50px 65px 60px;
+} 
+
+.aboutUS__right__card__text {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-right: 118px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.aboutUS__right__card__text_content {
+  padding-top: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #000000;
+}
+
+
+/* HOW WE WORK */
+
+.howWeWork{
+  padding-bottom: 110px;
+}
+
+.workContant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.worklink__list {
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.worklink__list__item {
+  padding-right: 85px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+
+}
+
+.leftColomn__text {
+
+  padding-right: 142px;
+  padding-bottom: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #000000;
+
+  text-align: left;
+}
+
+.leftColomn__mainbtn {
+  margin-right: 30px;
+
+  width: 175px;
+  height: 60px;
+
+  background: #FF9900;
+  border-radius: 16px;
+  border-color: #FF9900;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.leftColomn__secondbtn {
+  width: 175px;
+  height: 60px;  
+  border-radius: 16px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  
+  color: #000000;
+  background-color: #FFFFFF;
+
+}
+
+
+/* SOME QUESTIONS */
+
+
+.someQuestion__box{
+  margin-top: 30px;
+  border-top: 1px solid #CACACA;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.someQuestion__box:last-child {
+  border-bottom: 1px solid #CACACA;
+  margin-bottom: 100px;
+}
+
+.someQuestion__box__link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #000000;
+}
+
+.someQuestion__box__img {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
