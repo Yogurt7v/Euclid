@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background: white ;
+
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -32,6 +35,7 @@ a {
   text-decoration: none;
 }
 
+
 .wrapper {
   max-width: 1770px;
   box-sizing: border-box;
@@ -40,7 +44,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
 
 }
 
@@ -86,6 +89,10 @@ a {
   font-size: 18px;
   line-height: 22px;
 
+}
+
+.nav__card_image {
+  display: none;
 }
 
 .nav__search {
@@ -175,7 +182,7 @@ a {
   
   color: #333333;
 
-  padding-right: 250px;
+  padding-right: 390px;
   padding-bottom: 50px;
 
 }
@@ -394,4 +401,117 @@ a {
 .someQuestion__box__img {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+
+/* WRAPPER */
+
+
+.footer__background {
+  background-color:black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  background-color: inherit;
+}
+
+.footer__firstColomn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  margin-right: 210px;
+}
+
+
+
+.footer__list {
+  margin-top: 20px;
+}
+
+.footer__firstColomn_link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+
+  color: #CACACA;
+
+}
+
+.footer__socialImage {
+  align-items: end;
+}
+
+.footer__firstColomn__img {
+  margin-right: 25px;
+}
+
+.footer__formColomn {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.h2__footer {
+  display: flex;
+  color: #CACACA;
+}
+
+.item {
+  width: 570px;
+  height: 60px;
+  margin-top: 25px;
+  background: #414141;
+  border-radius: 16px;
+  padding-left: 25px;
+}
+
+.bigitem {
+  width: 570px;
+  height: 150px;
+  justify-content: start;
+}
+
+.footer__textColomn {
+  padding-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: 235px;
+  text-align: start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #CACACA;
+}
+
+.formColomn__btnposition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formColomn__button {
+  margin-top: 32px;
+  width: 269px;
+  height: 58px;
+  
+
+  background: #FF9900;
+  border-radius: 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+
+  color: #FFFFFF;
 }
