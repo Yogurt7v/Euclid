@@ -36,11 +36,11 @@ a {
 }
 
 
-.wrapper {
+.container {
   max-width: 1770px;
   box-sizing: border-box;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding: 0px 75px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
