@@ -1,12 +1,16 @@
-body {
-  font-family: 'Montserrat', sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: white ;
+  max-width: 100%
+}
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: white ;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  margin: 0 auto;
 }
 
 h2 {
@@ -51,10 +55,11 @@ a {
 /* HEADER */
 
 .header {
+
   box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  border-radius: 0px 0px 32px 32px;
   margin-bottom: 50px;
-  max-width: 100%;
+
 }
 
 
@@ -77,9 +82,10 @@ a {
 
 .nav__menu {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
   align-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .nav__card {
