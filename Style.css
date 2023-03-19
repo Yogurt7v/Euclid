@@ -102,7 +102,8 @@ a {
 /* Section HERO */
 
 .hero {
-  background: url(/Image/heroBackground.jpg);
+  background-image:  url(/Image/heroBackground.jpg);
+  background-size: cover;
   padding-top: 100px;
   padding-left: 80px;
   padding-right: 100px;

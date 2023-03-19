@@ -13,4 +13,22 @@
         display: inline;
     }
 
+    .hero__colomn {
+        padding: 160px 77px 0px 77px;
+    }
+
+    .hero__title{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .hero__content {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
 }
