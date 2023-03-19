@@ -369,6 +369,10 @@ a {
   max-width: 49%;
 }
 
+.rightColomn1024 {
+  display: none;
+}
+
 /* SOME QUESTIONS */
 
 .someQuestion__box {
@@ -447,10 +451,11 @@ a {
 }
 
 .footer__formColomn {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  max-width:100%; */
+  max-width:100%;
+  justify-content: flex-end;
 }
 
 .form {
@@ -482,6 +487,7 @@ a {
 
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 
   max-width: 30%;
   text-align: start;
