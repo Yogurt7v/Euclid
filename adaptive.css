@@ -178,10 +178,3 @@
     }
 
 }
-
-@media (max-width: 1024px) {
-    .container{
-        padding: 0 15px;
-    }
-
-}
