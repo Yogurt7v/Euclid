@@ -13,7 +13,12 @@
         display: inline;
     }
 
+    .hero {
+        padding: 0;
+    }
+
     .hero__colomn {
+        max-width: 100%;
         padding: 160px 77px 0px 77px;
     }
 
@@ -31,4 +36,40 @@
         line-height: 24px;
     }
 
+    .aboutUS__text {
+        padding-right: 0px;
+    }
+
+    .aboutUS__cards {
+        display: block;
+    }
+
+    .aboutUS_cards__bigCard {
+        margin-right: 0px;
+        max-width: 100%;
+        background-size: cover;
+        margin-bottom: 32px;
+    }
+
+    .howWeWork{
+        padding-top: 260px;
+    }
+
+    .leftColomn{
+        max-width: 47%;
+
+    }
+
+    .leftColomn__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .rightColomn{
+        max-width: 47%;
+        max-height: 100%;
+        background-size: cover;
+    }
 }
