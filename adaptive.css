@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+
+    .nav__card {
+        display: none;
+    }
+
+    .nav__card_image {
+        display:inline;
+        padding: 38px 0;
+    }
+
+    .nav__search {
+        display: inline;
+    }
+
+}
