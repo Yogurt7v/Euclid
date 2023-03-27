@@ -210,6 +210,7 @@ a {
   margin-right: 32px;
 
   background: url(/Image/Worker.jpg);
+  background-size: cover;
   border-radius: 32px;
 
   display: flex;
